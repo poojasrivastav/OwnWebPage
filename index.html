@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<style>
+ header {
+      text-align: right;
+      background: url('http://i.imgur.com/grThVMy.jpg');
+      background-size: cover;
+      color: white;
+       
+    }
+    .self{
+    	margin: 5px 5px 0 1000px; 
+    	border-radius: 50px;
+      border: 2px solid white;
+          }
+    h1 {
+      margin: 10px;
+      text-align: right;
+      }
+       ul {
+      padding: 25px;
+      background: rgba(255, 255, 255, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 10px 0;
+      font-size: 20px;
+      float: right;
+      }
+      .homeP{
+        padding: 10px;
+        text-align:center;
+        font-family: 'Roboto', sans-serif;
+      }
+      .smiley {
+        height: 14px;
+        width: 14px;
+        display: inline;
+        padding: 1px 0 2px 0;
+      }
+.iprop {width:150px; 
+  height:150px; 
+  padding-left:30px;
+     }
+   button {
+    margin:150px 0 0 0 ;
+    padding:10px 10px;
+    background-color:red; 
+    color:white;
+    font-weight: bold;
+    float:right;
+   }  
+
+@media (max-width: 500px){
+        body{
+          background: red;
+          }
+          h1 {
+            font-size: 36px;
+            }
+            li {
+              display: block;
+              padding: 5px;
+              }
+        }
+      
+</style>
+	
+</head>
+<body>
+	 <header>
+	  <img class="self" src="http://i.imgur.com/HEICh3o.jpg">
+	  <h1>Pooja Srivastava</h1>
+	  <ul>
+	    <li><a href="Contact.html">Contact Me</a></li>
+	</header>
+<p class="homeP">Welcome to my first web page. I love to design and build amazing dynamic website <img class="smiley" src="http://i.imgur.com/DUquIEq.jpg"></p>
+<a href="aboutme.html"><img src="http://i.imgur.com/kHPemyT.jpg" class="iprop" alt="About Me">I, Me & Myself!!</a>
+<a href="education.html"><img src="http://i.imgur.com/1vckhg4.jpg" class="iprop" alt="Education" style="border-radius:100%">My Education!!</a>
+<a href="hobby.html"><img src="http://i.imgur.com/l3BroJK.jpg" class="iprop" alt="hobbies">My Hobbies!!</a>
+<a href="family.html"><img src="http://i.imgur.com/Un30q1R.jpg" class="iprop" alt="family">My Family!!</a>
+<button onclick="likeFunction()">Like</button>
+
+<script>
+ function likeFunction() {
+  alert("Thank you for visiting my page.");
+}
+    </script>
+
+
+</body>
+
+</html>
